@@ -1,0 +1,19 @@
+{
+  "name": "Rectory Paw",
+  "description": "Rectory Paw Launcher",
+  "version": "2",
+  "manifest_version": 2,
+  "app": {
+    "background": {
+      "scripts": ["background.js"]
+    }
+  },
+  "icons": {
+     "128": "paw.png"
+  },
+  "permissions": [
+	  "storage",
+    "identity",
+    "identity.email"
+  ]
+}
